@@ -1,0 +1,24 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Performance Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Student Performance Dashboard</h1>
+        <label for="studentSelect">Select Student:</label>
+        <select id="studentSelect" onchange="showStudent()">
+            <option value="">-- Select --</option>
+        </select>
+
+        <div id="dashboardArea">
+            <p>Select a student to view their personalised dashboard.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
